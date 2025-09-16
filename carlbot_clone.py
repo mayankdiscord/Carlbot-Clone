@@ -751,4 +751,3 @@ async def roll_dice(ctx, dice: str = "1d6"):
         await ctx.send("Invalid dice format! Use format like `1d6` or `2d20`.")
 
 # HELP COMMAND
-@
