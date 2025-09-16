@@ -1,0 +1,104 @@
+# Core Discord.py library
+discord.py==2.3.2
+
+# HTTP requests for various API calls
+aiohttp==3.8.6
+
+# Async HTTP client session management
+aiofiles==23.2.0
+
+# Date and time manipulation (usually included with Python but explicit for clarity)
+python-dateutil==2.8.2
+
+# For better async support
+asyncio-throttle==1.0.2
+
+# Database support (choose one based on your preference)
+# SQLite support (built into Python, but these provide better async support)
+aiosqlite==0.19.0
+
+# PostgreSQL support (uncomment if using PostgreSQL)
+# asyncpg==0.28.0
+# psycopg2-binary==2.9.7
+
+# MongoDB support (uncomment if using MongoDB)
+# motor==3.3.1
+# pymongo==4.5.0
+
+# Redis support for caching (uncomment if using Redis)
+# redis==5.0.0
+# aioredis==2.0.1
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# JSON Web Token support (if implementing authentication)
+PyJWT==2.8.0
+
+# Cryptography for secure operations
+cryptography==41.0.7
+
+# YouTube support for music functionality (uncomment if implementing music)
+# yt-dlp==2023.9.24
+# PyNaCl==1.5.0
+
+# Audio processing (uncomment if implementing music)
+# ffmpeg-python==0.2.0
+
+# Web scraping (if needed for additional features)
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Image processing (for avatar manipulation, etc.)
+Pillow==10.0.1
+
+# Timezone support
+pytz==2023.3
+
+# Logging enhancements
+colorlog==6.7.0
+
+# Performance monitoring
+psutil==5.9.6
+
+# Configuration management
+pyyaml==6.0.1
+
+# Caching
+cachetools==5.3.2
+
+# Rate limiting
+ratelimit==2.2.1
+
+# Text processing and formatting
+humanize==4.8.0
+
+# Emoji support
+emoji==2.8.0
+
+# Regular expressions (enhanced)
+regex==2023.10.3
+
+# UUID generation
+uuid==1.30
+
+# Data validation
+pydantic==2.4.2
+
+# Scheduling tasks
+APScheduler==3.10.4
+
+# Testing (for development)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Code formatting and linting (for development)
+black==23.9.1
+flake8==6.1.0
+isort==5.12.0
+
+# Type checking (for development)
+mypy==1.6.1
+
+# Documentation (for development)
+sphinx==7.2.6
